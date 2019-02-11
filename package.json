@@ -8,14 +8,16 @@
   },
   "scripts": {
     "dev": "gitbook serve",
-    "build": "gitbook build",
-    "verify": "yarn build"
+    "build": "echo 'gitbook build'",
+    "verify": "yarn build",
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.13.4",
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-advanced-emoji": "^0.2.1",
     "gitbook-plugin-hints": "^1.0.1",
-    "gitbook-plugin-prism": "^1.0.0"
+    "gitbook-plugin-prism": "^1.0.0",
+    "serve": "^10.1.1"
   }
 }
